@@ -8,8 +8,8 @@ int main()
 	p = a;
 	for( x=0; x<5; x++ )
 	{
-		printf("%d\n",*p);
-		p++;
+		printf("%d\n",*++p);
+		// p++;
 	}
 
 	return(0);

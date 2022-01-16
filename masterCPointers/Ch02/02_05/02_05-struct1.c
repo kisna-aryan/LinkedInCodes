@@ -6,7 +6,8 @@ int main()
 	struct person {
 		char *name;
 		int *age;
-	} my;
+	};
+	struct person my;
 	char n[] = "Jennifer";
 
 	/* allocate storage for the age integer */
